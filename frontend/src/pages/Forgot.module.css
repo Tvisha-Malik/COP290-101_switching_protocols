@@ -1,0 +1,84 @@
+.logoIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sendEmail,
+.username {
+  font-family: var(--font-lexend-deca);
+  width: 518px;
+  flex-shrink: 0;
+}
+.username {
+  border: 0;
+  font-size: 14px;
+  background-color: var(--color-darkgoldenrod-300);
+  border-radius: var(--br-3xs);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 21px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sendEmail {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--color-white);
+  text-align: center;
+  justify-content: center;
+}
+.form,
+.send,
+.sendEmail {
+  display: flex;
+  align-items: center;
+}
+.send {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-0);
+  background-color: var(--color-darkgoldenrod-200);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  width: 518px;
+  height: 50px;
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.send:hover {
+  background-color: rgba(219, 171, 11, 0.87);
+  cursor: auto;
+}
+.form {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.vectorsIcon {
+  position: relative;
+  width: 1922px;
+  height: 189px;
+  flex-shrink: 0;
+}
+.forgot {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 51px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 106px;
+}

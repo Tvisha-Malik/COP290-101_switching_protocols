@@ -1,0 +1,149 @@
+.radioButton {
+  cursor: pointer;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.best,
+.bestbutton {
+  display: flex;
+  align-items: center;
+}
+.best {
+  cursor: pointer;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+  width: 145.42px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.bestbutton {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.new,
+.radioButton1 {
+  cursor: pointer;
+  position: absolute;
+}
+.radioButton1 {
+  top: 3px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.new {
+  top: 0;
+  left: 25px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 145.42px;
+  height: 26px;
+}
+.newbutton {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.old {
+  cursor: pointer;
+  top: 0;
+  left: 26px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+  align-items: flex-end;
+  width: 145.42px;
+  height: 26px;
+}
+.old,
+.options,
+.sort2 {
+  position: absolute;
+  display: flex;
+}
+.options {
+  top: 45px;
+  left: 35px;
+  height: 104px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sort2 {
+  height: 100%;
+  width: 64.65%;
+  top: 0;
+  left: 35.35%;
+  text-transform: capitalize;
+  align-items: center;
+}
+.image32Icon,
+.sortbar {
+  position: absolute;
+  left: 0;
+}
+.image32Icon {
+  height: 70%;
+  width: 28.28%;
+  top: 22.5%;
+  right: 71.72%;
+  bottom: 7.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sortbar {
+  height: 28.57%;
+  width: 39.13%;
+  top: 0;
+  right: 60.87%;
+  bottom: 71.43%;
+}
+.sort1 {
+  position: relative;
+  width: 284px;
+  height: 156px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.sort,
+.sortWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.sortWrapper {
+  height: 155px;
+  padding: var(--padding-3xs);
+}
+.sort {
+  align-self: stretch;
+  height: 169px;
+  padding: var(--padding-0) var(--padding-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-encode-sans);
+}

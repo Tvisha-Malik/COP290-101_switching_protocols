@@ -1,0 +1,9 @@
+connexion >= 2.6.0
+connexion[swagger-ui] >= 2.6.0
+python_dateutil == 2.6.0
+setuptools >= 21.0.0
+swagger-ui-bundle >= 0.0.2
+PyJWT >= 1.7.1
+pymysql >= 0.7.11
+flask_cors >= 3.0.10
+pyyaml

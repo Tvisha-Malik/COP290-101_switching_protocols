@@ -1,0 +1,17 @@
+.feed {
+  width: 1072px;
+  height: 2317px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-52xl) var(--padding-36xl)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}

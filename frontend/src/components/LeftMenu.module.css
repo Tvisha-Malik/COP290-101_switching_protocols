@@ -1,0 +1,129 @@
+.homeIcon {
+  height: 93.33%;
+  width: 24.78%;
+  top: 3.33%;
+  right: 75.22%;
+  bottom: 3.33%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.home,
+.home1,
+.homeIcon {
+  position: absolute;
+}
+.home1 {
+  top: 0;
+  left: 42.48%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+  cursor: pointer;
+}
+.home {
+  height: 76.92%;
+  width: 48.29%;
+  top: 7.69%;
+  right: 33.33%;
+  bottom: 15.38%;
+  left: 18.38%;
+}
+.homebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 234px;
+  height: 39px;
+  flex-shrink: 0;
+}
+.homebutton:hover,
+.newPost:hover {
+  background-color: var(--color-paleturquoise-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.newPost:hover {
+  background-color: var(--color-paleturquoise-100);
+}
+.trending,
+.trendingIcon {
+  position: absolute;
+  cursor: pointer;
+}
+.trending {
+  top: 10.26%;
+  left: 35.27%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.trendingIcon {
+  height: 71.79%;
+  width: 10.85%;
+  top: 17.95%;
+  right: 72.48%;
+  bottom: 10.26%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.image31Icon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.newPost1 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-encode-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.leftMenu,
+.newPost {
+  display: flex;
+  align-items: center;
+}
+.newPost {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 234px;
+  height: 39px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.leftMenu {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 427px;
+  height: 455px;
+  flex-direction: column;
+  padding: var(--padding-15xl) var(--padding-0) var(--padding-25xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,47 @@
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.logoIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  cursor: pointer;
+}
+.logoIcon.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in-top;
+}
+.form {
+  width: 544.16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorsIcon {
+  position: relative;
+  width: 1920px;
+  height: 177px;
+  flex-shrink: 0;
+}
+.loginPage {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px;
+}

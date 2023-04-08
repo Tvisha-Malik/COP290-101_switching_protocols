@@ -1,0 +1,86 @@
+.logoIcon {
+  width: 245px;
+  height: 298px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.emailAddress {
+  align-self: stretch;
+  cursor: text;
+}
+.emailAddress,
+.password,
+.username {
+  border: 0;
+  background-color: var(--color-darkgoldenrod-300);
+  border-radius: var(--br-3xs);
+  height: 50px;
+  flex-shrink: 0;
+}
+.username {
+  width: 380.26px;
+  cursor: text;
+}
+.password,
+.signUp1 {
+  align-self: stretch;
+}
+.signUp1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-white);
+  text-align: center;
+}
+.form,
+.loginBtn {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.loginBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 14px var(--padding-0);
+  background-color: var(--color-darkgoldenrod-200);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  height: 48px;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.loginBtn:hover {
+  background-color: #c89c0a;
+}
+.form {
+  width: 380.26px;
+  height: 282px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-9xl);
+}
+.vectorsIcon {
+  position: relative;
+  width: 1920px;
+  height: 180px;
+  flex-shrink: 0;
+}
+.signUp {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 39px;
+}
